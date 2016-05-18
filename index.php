@@ -2,6 +2,7 @@
 
 echo "<h2>Skyhook Index</h2>";
 
-
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+echo $actual_link;
 
 ?>
